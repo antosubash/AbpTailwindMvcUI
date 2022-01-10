@@ -4,12 +4,6 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpTailwindMvc.Domain", "src\AbpTailwindMvc.Domain\AbpTailwindMvc.Domain.csproj", "{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo.csproj", "{FB7D9BB6-2997-44BB-95E6-E15A21C059F5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests.csproj", "{E095CC86-4CF4-4308-A1B2-C675D04ACA11}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.csproj", "{AC04CB56-EB5C-46C5-84F9-8ED79B26B605}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.BasicTheme.Tests", "Volo.BasicTheme.Tests", "{29148EEC-9BD8-4BE3-B763-A00B8C32437B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpTailwindMvc.Application", "src\AbpTailwindMvc.Application\AbpTailwindMvc.Application.csproj", "{1A94A50E-06DC-43C1-80B5-B662820EC3EB}"
@@ -54,18 +48,6 @@ Global
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB7D9BB6-2997-44BB-95E6-E15A21C059F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB7D9BB6-2997-44BB-95E6-E15A21C059F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB7D9BB6-2997-44BB-95E6-E15A21C059F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB7D9BB6-2997-44BB-95E6-E15A21C059F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E095CC86-4CF4-4308-A1B2-C675D04ACA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E095CC86-4CF4-4308-A1B2-C675D04ACA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E095CC86-4CF4-4308-A1B2-C675D04ACA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E095CC86-4CF4-4308-A1B2-C675D04ACA11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC04CB56-EB5C-46C5-84F9-8ED79B26B605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC04CB56-EB5C-46C5-84F9-8ED79B26B605}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC04CB56-EB5C-46C5-84F9-8ED79B26B605}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC04CB56-EB5C-46C5-84F9-8ED79B26B605}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A94A50E-06DC-43C1-80B5-B662820EC3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1A94A50E-06DC-43C1-80B5-B662820EC3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A94A50E-06DC-43C1-80B5-B662820EC3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -128,9 +110,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
-		{FB7D9BB6-2997-44BB-95E6-E15A21C059F5} = {29148EEC-9BD8-4BE3-B763-A00B8C32437B}
-		{E095CC86-4CF4-4308-A1B2-C675D04ACA11} = {29148EEC-9BD8-4BE3-B763-A00B8C32437B}
-		{AC04CB56-EB5C-46C5-84F9-8ED79B26B605} = {29148EEC-9BD8-4BE3-B763-A00B8C32437B}
 		{29148EEC-9BD8-4BE3-B763-A00B8C32437B} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
 		{1A94A50E-06DC-43C1-80B5-B662820EC3EB} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{C956DD76-69C8-4A9C-83EA-D17DF83340FD} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}

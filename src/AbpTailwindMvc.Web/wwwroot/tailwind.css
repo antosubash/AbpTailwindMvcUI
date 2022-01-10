@@ -54,6 +54,10 @@
   display: flex
 }
 
+.h-screen {
+  height: 100vh
+}
+
 .h-8 {
   height: 2rem
 }
