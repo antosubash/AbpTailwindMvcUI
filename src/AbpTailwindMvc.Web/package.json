@@ -9,7 +9,7 @@
         "watch": "npx tailwindcss --config tailwind.config.js --postcss postcss.config.js -i ./Style/tailwind.css -o ./wwwroot/tailwind.css --watch"
     },
     "dependencies": {
-        "@abp/aspnetcore.mvc.ui.theme.basic": "^5.0.1"
+        "@abp/aspnetcore.mvc.ui.theme.basic": "^5.3.5"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.2",
