@@ -1,8 +1,28 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpTailwindMvc.Domain", "src\AbpTailwindMvc.Domain\AbpTailwindMvc.Domain.csproj", "{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.Demo.csproj", "{4366f197-72a1-41f3-b0a0-e79978284546}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.Tests.csproj", "{5f833e13-d25b-4f2e-b87f-87e3a758603d}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo", "modules\Volo.BasicTheme\test\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.Demo.csproj", "{ab1ca8db-6d0e-4f82-8807-23034e1d3f69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.BasicTheme.Installer", "modules\Volo.BasicTheme\src\Volo.Abp.BasicTheme.Installer\Volo.Abp.BasicTheme.Installer.csproj", "{0c039f92-9eaf-488a-ba8a-c62b10651071}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic", "modules\Volo.BasicTheme\src\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.csproj", "{968bec31-39ce-4a4c-896c-05a2e3e2dd2d}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme", "modules\Volo.BasicTheme\src\Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme\Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme.csproj", "{72f84dd7-1b04-43b0-97e9-e54758f6b0dd}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Components.Web.BasicTheme", "modules\Volo.BasicTheme\src\Volo.Abp.AspNetCore.Components.Web.BasicTheme\Volo.Abp.AspNetCore.Components.Web.BasicTheme.csproj", "{d5fed016-6c2e-40fa-8cd9-07883e0d4ea1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Components.Server.BasicTheme", "modules\Volo.BasicTheme\src\Volo.Abp.AspNetCore.Components.Server.BasicTheme\Volo.Abp.AspNetCore.Components.Server.BasicTheme.csproj", "{7899ca90-2bfc-4a4c-a32a-ca6753bc50d7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.BasicTheme", "Volo.BasicTheme", "{9fae99fc-923b-4e22-8d2f-311a627d536f}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{b141e0ca-0194-4406-afaa-b57baa74e430}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volo.BasicTheme.Tests", "Volo.BasicTheme.Tests", "{29148EEC-9BD8-4BE3-B763-A00B8C32437B}"
 EndProject
@@ -44,6 +64,38 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4366f197-72a1-41f3-b0a0-e79978284546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4366f197-72a1-41f3-b0a0-e79978284546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4366f197-72a1-41f3-b0a0-e79978284546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4366f197-72a1-41f3-b0a0-e79978284546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5f833e13-d25b-4f2e-b87f-87e3a758603d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5f833e13-d25b-4f2e-b87f-87e3a758603d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5f833e13-d25b-4f2e-b87f-87e3a758603d}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5f833e13-d25b-4f2e-b87f-87e3a758603d}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ab1ca8db-6d0e-4f82-8807-23034e1d3f69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ab1ca8db-6d0e-4f82-8807-23034e1d3f69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ab1ca8db-6d0e-4f82-8807-23034e1d3f69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ab1ca8db-6d0e-4f82-8807-23034e1d3f69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0c039f92-9eaf-488a-ba8a-c62b10651071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0c039f92-9eaf-488a-ba8a-c62b10651071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0c039f92-9eaf-488a-ba8a-c62b10651071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0c039f92-9eaf-488a-ba8a-c62b10651071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968bec31-39ce-4a4c-896c-05a2e3e2dd2d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968bec31-39ce-4a4c-896c-05a2e3e2dd2d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968bec31-39ce-4a4c-896c-05a2e3e2dd2d}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968bec31-39ce-4a4c-896c-05a2e3e2dd2d}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72f84dd7-1b04-43b0-97e9-e54758f6b0dd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72f84dd7-1b04-43b0-97e9-e54758f6b0dd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72f84dd7-1b04-43b0-97e9-e54758f6b0dd}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72f84dd7-1b04-43b0-97e9-e54758f6b0dd}.Release|Any CPU.Build.0 = Release|Any CPU
+		{d5fed016-6c2e-40fa-8cd9-07883e0d4ea1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d5fed016-6c2e-40fa-8cd9-07883e0d4ea1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d5fed016-6c2e-40fa-8cd9-07883e0d4ea1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{d5fed016-6c2e-40fa-8cd9-07883e0d4ea1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7899ca90-2bfc-4a4c-a32a-ca6753bc50d7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7899ca90-2bfc-4a4c-a32a-ca6753bc50d7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7899ca90-2bfc-4a4c-a32a-ca6753bc50d7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7899ca90-2bfc-4a4c-a32a-ca6753bc50d7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -109,6 +161,15 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{4366f197-72a1-41f3-b0a0-e79978284546} = {29148EEC-9BD8-4BE3-B763-A00B8C32437B}
+		{5f833e13-d25b-4f2e-b87f-87e3a758603d} = {29148EEC-9BD8-4BE3-B763-A00B8C32437B}
+		{ab1ca8db-6d0e-4f82-8807-23034e1d3f69} = {29148EEC-9BD8-4BE3-B763-A00B8C32437B}
+		{0c039f92-9eaf-488a-ba8a-c62b10651071} = {9fae99fc-923b-4e22-8d2f-311a627d536f}
+		{968bec31-39ce-4a4c-896c-05a2e3e2dd2d} = {9fae99fc-923b-4e22-8d2f-311a627d536f}
+		{72f84dd7-1b04-43b0-97e9-e54758f6b0dd} = {9fae99fc-923b-4e22-8d2f-311a627d536f}
+		{d5fed016-6c2e-40fa-8cd9-07883e0d4ea1} = {9fae99fc-923b-4e22-8d2f-311a627d536f}
+		{7899ca90-2bfc-4a4c-a32a-ca6753bc50d7} = {9fae99fc-923b-4e22-8d2f-311a627d536f}
+		{9fae99fc-923b-4e22-8d2f-311a627d536f} = {b141e0ca-0194-4406-afaa-b57baa74e430}
 		{554AD327-6DBA-4F8F-96F8-81CE7A0C863F} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{29148EEC-9BD8-4BE3-B763-A00B8C32437B} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
 		{1A94A50E-06DC-43C1-80B5-B662820EC3EB} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
